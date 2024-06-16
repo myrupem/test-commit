@@ -1,0 +1,205 @@
+header {
+	background-image: url('img/poster.png');
+		/* Sätt in din bildväg här */
+		background-size: auto;
+		/* Gör så att bilden täcker hela headern och behåller proportionerna */
+		background-position: center;
+		/* Centrerar bilden i headern */
+		height: 600px;
+		/* Sätt höjden på headern till 100% av viewportens höjd */
+		position: relative;
+}
+
+header img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	/* eller vilken storlek du vill ha */
+	height: auto;
+	/* detta håller bildens proportioner */
+	margin: 30px;
+}
+
+
+body {
+	background-color: black;
+	margin: 0;
+	font-family: Puritan;
+}
+
+.container {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+		/* Inkluderar padding och border i bredd/höjd */
+	padding: 10px;
+		/* Exempel på padding */
+	justify-content: center;
+			/* Centrerar horisontellt */
+	align-items: center;
+			/* Centrerar vertikalt */
+	
+}
+
+.imgContainer {
+	display: flex;
+	flex-direction: column;
+	width: 210px;
+	font-size: 12px;
+	padding-bottom: 2rem;
+}
+
+.imgContainer img {
+	width: auto;
+	height: 175px;
+	margin: 5px;
+	max-height: 100%;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 5px;
+}
+
+.imgContainer h2 {
+	color: antiquewhite;
+	margin: 5px;
+}
+
+.imgContainer p {
+	color: antiquewhite;
+	margin: 5px;
+	padding-bottom: 1.5rem;
+}
+
+.containerBig {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	/* Inkluderar padding och border i bredd/höjd */
+	padding: 10px;
+	/* Exempel på padding */
+	justify-content: center;
+	/* Centrerar horisontellt */
+	align-items: center;
+	/* Centrerar vertikalt */
+
+}
+.imgContainerBig {
+	background-color: antiquewhite;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: auto;
+	font-size: 12px;
+	padding-bottom: 2rem;
+	margin: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.imgContainerBig img {
+	width: auto;
+	height: 290px;
+	max-height: 100%;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.imgContainerBig h2 {
+	color: black;
+	margin: 5px;
+}
+
+.imgContainerBig p {
+	color: black;
+	margin: 5px;
+	padding-bottom: 1.5rem;
+}
+
+.card-button {
+	font-family: "Puritan";
+	height: 1.75rem;
+	width: 60%;
+	background-color: rgb(238, 75, 75);
+	color: white;
+	margin-top: auto;
+	border-radius: 5px;
+	/*margin-left: 0.7rem;*/
+	margin-left: 2px;
+}
+
+footer {
+	height: 200px;
+	width: auto;
+	margin: 0;
+	margin-top: 5rem;
+	background-color: grey;
+}
+
+.footCont {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 2rem;
+}
+
+footer h1 {
+	color: antiquewhite;
+	font-size: 1.5rem;
+}
+
+footer p {
+	color: antiquewhite;
+	font-size: 0.7rem;
+	margin: 2px;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+}
+
+.socialLogga {
+	display: flex;
+	flex-direction: row;
+}
+
+.socialLogga img {
+	padding: 2px;
+}
+
+
+
+
+
+.puritan-regular {
+	font-family: "Puritan", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.puritan-bold {
+	font-family: "Puritan", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.puritan-regular-italic {
+	font-family: "Puritan", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.puritan-bold-italic {
+	font-family: "Puritan", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
